@@ -1,0 +1,19 @@
+Mögliche Darstellungsformen:
+- Textbasierte: gut wartbar
+	- Pseudocode: eindeutig / einfach implementierbar / von Laien kaum interpretierbar
+	- Prosa: Mehrdeutig / schlecht lesbar
+- Grafisch: Schlecht wartbar / gut lesbar
+
+Fibonacci Folge:
+var n : int = 0
+var m : int = 1
+var x : int
+
+Write(n)
+
+while m < 10000 do -- beliebige Begrenzung
+	Write(m)
+	x := m
+	m := n + m
+	n := x
+end
