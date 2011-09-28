@@ -1,0 +1,11 @@
+Uebungen 2 - Task 2 - Adrian Schmid
+
+Abhängigkeit zwischen Problemgrösse n und Laufzeit t: t= f(n)
+
+mögliche Einflüsse auf die Laufzeit t:
+- Hardware CPU, Arbeitsspeicher, Cache
+- Betriebssystem: andere Anwendungen, Systemprozesse, Sicherheitseinstellungen, virtueller Speicher
+- Programmiersprache und Bibliotheken: Interpretation, Bytecode, Maschinencode
+- Compiler: Optimierungen, Laufzeitprüfungen, Garbage Collector
+
+90/10 Regel: 10 Prozent des Codes brauchen üblicherweise ca 90% der Laufzeit.
